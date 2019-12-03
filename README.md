@@ -61,9 +61,7 @@ Press `Ctrl+x` to exit and `y` to save
 ### 8) Setting up run-server.sh
 
 - `wget https://github.com/Daztek/NWNX-WSL/blob/master/run-server.sh`
-
 - `chmod +x run-server.sh`
-
 - `nano run-server.sh`
 
 Edit the file to your liking and don't forget to set `MODNAME` to your module filename, without .mod

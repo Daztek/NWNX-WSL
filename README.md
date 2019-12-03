@@ -2,6 +2,12 @@
 
 Installing WSL is not covered in this guide, you can follow the steps in [this article](https://www.computerhope.com/issues/ch001879.htm). Only do the `Installing WSL.` and `Getting Started with your Linux subsystem.` steps.
 
+---
+
+**This guide will only support SQLite for NWNX_SQL**
+
+**Advanced plugins like the Profiler and Redis/DotNET plugin are also not covered**
+
 ### 1) Start Ubuntu
 
 ### 2) Updating Ubuntu 

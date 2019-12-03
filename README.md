@@ -78,6 +78,17 @@ It'll automatically load your module from the windows side and start the server,
 
 To stop the server, just type `exit` in the console.
 
+---
+
+## Extra
+
+### 1) Updating NWNX:EE
+
+- `cd unified`
+- `git pull`
+- `./Scripts/buildnwnx.sh -j 4`
+- `cd`
+
 
 
 

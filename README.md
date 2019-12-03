@@ -60,11 +60,11 @@ Press `Ctrl+x` to exit and `y` to save
 
 ### 8) Setting up run-server.sh
 
-`wget https://github.com/Daztek/NWNX-WSL/blob/master/run-server.sh`
+- `wget https://github.com/Daztek/NWNX-WSL/blob/master/run-server.sh`
 
-`chmod +x run-server.sh`
+- `chmod +x run-server.sh`
 
-`nano run-server.sh`
+- `nano run-server.sh`
 
 Edit the file to your liking and don't forget to set `MODNAME` to your module filename, without .mod
 
@@ -72,7 +72,7 @@ Press `Ctrl+x` to exit and `y` to save
 
 ### 9) Running the server
 
-`./run-server.sh`
+- `./run-server.sh`
 
 It'll automatically load your module from the windows side and start the server, by default it's only accessible through LAN.
 

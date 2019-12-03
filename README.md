@@ -1,6 +1,6 @@
 # NWNX:EE on WSL1, a brief guide
 
-Installing WSL is not covered in this guide, you can follow the steps in [this article](https://www.computerhope.com/issues/ch001879.htm). Only do the `Installing WSL.` and `Getting Started with your Linux subsystem.` steps.
+Installing WSL1 is not covered in this guide, you can follow the steps in [this article](https://www.computerhope.com/issues/ch001879.htm). Only do the `Installing WSL.` and `Getting Started with your Linux subsystem.` steps.
 
 ---
 

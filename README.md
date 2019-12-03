@@ -8,6 +8,8 @@ Installing WSL is not covered in this guide, you can follow the steps in [this a
 
 **Advanced plugins like the Profiler and Redis/DotNET plugin are also not covered**
 
+---
+
 ### 1) Start Ubuntu
 
 ### 2) Updating Ubuntu 

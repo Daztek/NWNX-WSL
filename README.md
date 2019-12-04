@@ -82,12 +82,16 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
 ### Updating NWNX:EE
 
+If you want to update NWNX:EE at some point you can do the following:
+
 - `cd unified`
 - `git pull`
 - `./Scripts/buildnwnx.sh -j 4`
 - `cd`
 
 ### Setting up Redis
+
+If you want Redis support, you can do the following:
 
 - `sudo apt install -y redis-server`
 - `sudo nano /etc/redis/redis.conf`

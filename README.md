@@ -80,20 +80,26 @@ To stop the server, just type `exit` in the console.
 
 ## Extra
 
-### 1) Updating NWNX:EE
+### Updating NWNX:EE
 
 - `cd unified`
 - `git pull`
 - `./Scripts/buildnwnx.sh -j 4`
 - `cd`
 
+### Setting up Redis
 
+- `sudo apt install -y redis-server`
+- `sudo nano /etc/redis/redis.conf`
 
+Find the `supervised no` line and change it to `supervised systemd`
 
- 
+Press `Ctrl+x` to exit and `y` to save
 
+- `nano run-server.sh`
 
+Add `export NWNX_REDIS_HOST=localhost` to the file and press `Ctrl+x` to exit and `y` to save
 
+- `sudo service redis-server start`
 
- 
-
+**This starts the redis server and has to be done every time your PC is restarted.**

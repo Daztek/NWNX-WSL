@@ -64,7 +64,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 - `chmod +x run-server.sh`
 - `nano run-server.sh`
 
-  Edit the file to your liking and don't forget to set `MODNAME` to your module filename, without .mod
+  Edit the file to your liking, by default all plugins but `ServerLogRedirector` are disabled. Don't forget to set `MODNAME` to your module filename, without .mod.
 
   Press `Ctrl+x` to exit and `y` to save.
 

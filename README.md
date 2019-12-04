@@ -48,15 +48,15 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
 - `nano .local/share/Neverwinter\ Nights/nwn.ini`
 
-Change the `MODULES`, `HAK` and `TLK` aliases to your windows nwn userdirectory:
+  Change the `MODULES`, `HAK` and `TLK` aliases to your windows nwn userdirectory:
 
-`MODULES=/mnt/c/Users/<Username>/Documents/Neverwinter Nights/modules`
+  `MODULES=/mnt/c/Users/<Username>/Documents/Neverwinter Nights/modules`
 
-`HAK=/mnt/c/Users/<Username>/Documents/Neverwinter Nights/hak`
+  `HAK=/mnt/c/Users/<Username>/Documents/Neverwinter Nights/hak`
 
-`TLK=/mnt/c/Users/<Username>/Documents/Neverwinter Nights/tlk`
+  `TLK=/mnt/c/Users/<Username>/Documents/Neverwinter Nights/tlk`
 
-Press `Ctrl+x` to exit and `y` to save
+  Press `Ctrl+x` to exit and `y` to save
 
 ### 8) Setting up run-server.sh
 
@@ -64,17 +64,17 @@ Press `Ctrl+x` to exit and `y` to save
 - `chmod +x run-server.sh`
 - `nano run-server.sh`
 
-Edit the file to your liking and don't forget to set `MODNAME` to your module filename, without .mod
+  Edit the file to your liking and don't forget to set `MODNAME` to your module filename, without .mod
 
-Press `Ctrl+x` to exit and `y` to save
+  Press `Ctrl+x` to exit and `y` to save
 
 ### 9) Running the server
 
 - `./run-server.sh`
 
-It'll automatically load your module from the windows side and start the server, by default it's only accessible through LAN.
+  It'll automatically load your module from the windows side and start the server, by default it's only accessible through LAN.
 
-To stop the server, just type `exit` in the console.
+  To stop the server, just type `exit` in the console.
 
 ---
 
@@ -92,14 +92,10 @@ To stop the server, just type `exit` in the console.
 - `sudo apt install -y redis-server`
 - `sudo nano /etc/redis/redis.conf`
 
-Find the `supervised no` line and change it to `supervised systemd`
+  Find the `supervised no` line and change it to `supervised systemd`
 
-Press `Ctrl+x` to exit and `y` to save
-
-- `nano run-server.sh`
-
-Add `export NWNX_REDIS_HOST=localhost` to the file and press `Ctrl+x` to exit and `y` to save
+  Press `Ctrl+x` to exit and `y` to save
 
 - `sudo service redis-server start`
 
-**This starts the redis server and has to be done every time your PC is restarted.**
+  **This starts the redis server and has to be done every time your PC is restarted.**

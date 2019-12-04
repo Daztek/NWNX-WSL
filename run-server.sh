@@ -49,7 +49,6 @@ export NWNX_WEBHOOK_SKIP=y
 # These plugins are missing dependencies or outside configuration and won't work out of the box
 export NWNX_DOTNET_SKIP=y
 export NWNX_LUA_SKIP=y
-export NWNX_LUA_SKIP=y
 export NWNX_METRICS_INFLUXDB_SKIP=y
 export NWNX_PROFILER_SKIP=y
 export NWNX_REDIS_SKIP=y

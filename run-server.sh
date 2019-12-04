@@ -10,8 +10,16 @@ export NWNX_CORE_LOG_LEVEL=7
 
 export NWNX_SERVERLOGREDIRECTOR_SKIP=n
 export NWNX_SERVERLOGREDIRECTOR_LOG_LEVEL=6
+
+# Only SQLite is supported
+export NWNX_SQL_SKIP=y
 export NWNX_SQL_TYPE=SQLITE
 
+# Redis needs additional configuration, see the Extra header in the readme
+export NWNX_REDIS_SKIP=y
+export NWNX_REDIS_HOST=localhost
+
+# These plugins should all work, enable when needed
 export NWNX_ADMINISTRATION_SKIP=y
 export NWNX_APPEARANCE_SKIP=y
 export NWNX_AREA_SKIP=y
@@ -35,7 +43,6 @@ export NWNX_PLAYER_SKIP=y
 export NWNX_RACE_SKIP=y
 export NWNX_REGEX_SKIP=y
 export NWNX_REVEAL_SKIP=y
-export NWNX_SQL_SKIP=y
 export NWNX_SKILLRANKS_SKIP=y
 export NWNX_SPELLCHECKER_SKIP=y
 export NWNX_THREADWATCHDOG_SKIP=y
@@ -51,7 +58,6 @@ export NWNX_DOTNET_SKIP=y
 export NWNX_LUA_SKIP=y
 export NWNX_METRICS_INFLUXDB_SKIP=y
 export NWNX_PROFILER_SKIP=y
-export NWNX_REDIS_SKIP=y
 export NWNX_RUBY_SKIP=y
 export NWNX_TRACKING_SKIP=y
 

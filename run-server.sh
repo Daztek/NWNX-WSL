@@ -20,6 +20,8 @@ export NWNX_REDIS_SKIP=y
 export NWNX_REDIS_HOST=localhost
 
 # These plugins should all work, enable when needed
+# You can check a plugin's README for additional environment variables you can set:
+# https://github.com/nwnxee/unified/tree/master/Plugins
 export NWNX_ADMINISTRATION_SKIP=y
 export NWNX_APPEARANCE_SKIP=y
 export NWNX_AREA_SKIP=y

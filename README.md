@@ -4,9 +4,9 @@ Installing WSL1 is not covered in this guide, you can follow the steps in [this 
 
 ---
 
-**This guide will only support SQLite for NWNX_SQL**
+**This guide will only support SQLite for NWNX_SQL.**
 
-**Advanced plugins like the Profiler, Lua, Ruby and DotNET plugins are not covered**
+**Advanced plugins like the Profiler, Lua, Ruby and DotNET plugins are not covered.**
 
 ---
 
@@ -66,7 +66,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
   Edit the file to your liking and don't forget to set `MODNAME` to your module filename, without .mod
 
-  Press `Ctrl+x` to exit and `y` to save
+  Press `Ctrl+x` to exit and `y` to save.
 
 ### 9) Running the server
 
@@ -94,7 +94,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
   Find the `supervised no` line and change it to `supervised systemd`
 
-  Press `Ctrl+x` to exit and `y` to save
+  Press `Ctrl+x` to exit and `y` to save.
 
 - `sudo service redis-server start`
 

@@ -6,7 +6,7 @@ Installing WSL1 is not covered in this guide, you can follow the steps in [this 
 
 **This guide will only support SQLite for NWNX_SQL**
 
-**Advanced plugins like the Profiler and Redis/DotNET plugin are also not covered**
+**Advanced plugins like the Profiler, Lua, Ruby and DotNET plugins are not covered**
 
 ---
 

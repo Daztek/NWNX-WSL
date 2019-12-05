@@ -78,7 +78,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
 ## Maintenance
 
-### - Updating NWNX:EE
+### Updating NWNX:EE
 
 If you want to update NWNX:EE at some point you can do the following:
 

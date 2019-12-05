@@ -78,7 +78,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
 ---
 
-## Extra
+## Maintenance
 
 ### Updating NWNX:EE
 
@@ -96,6 +96,8 @@ If you want to edit settings like "Sticky Player Names", "Show DM Joined Message
 - `nano ~/.local/share/Neverwinter\ Nights/settings.tml`
 
 Change the settings you want and press `Ctrl+x` to exit and `y` to save.
+
+## Extra
 
 ### Setting up Redis
 

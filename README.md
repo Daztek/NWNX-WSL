@@ -82,7 +82,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
 If you want to update NWNX:EE at some point you can do the following:
 
-- `cd unified`
+- `cd ~/unified`
 - `git pull`
 - `./Scripts/buildnwnx.sh -j 4`
 - `cd`
@@ -93,7 +93,7 @@ When Beamdog releases a patch you'll need to update nwserver-linux, this is how:
 
 Replace XXXX with the needed version, for example 8193
 
-- `cd server`
+- `cd ~/server`
 - `rm -r bin data`
 - `wget https://nwnx.io/nwnee-dedicated-XXXX.zip`
 - `unzip nwnee-dedicated-XXXX.zip`

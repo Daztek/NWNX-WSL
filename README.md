@@ -91,7 +91,7 @@ If you want to update NWNX:EE at some point you can do the following:
 
 ### Editing server settings
 
-If you want to set settings like "Sticky Player Names", "Show DM Joined Messages" you can do the following:
+If you want to edit settings like "Sticky Player Names", "Show DM Joined Messages" etc you can do the following:
 
 - `nano ~/.local/share/Neverwinter\ Nights/settings.tml`
 

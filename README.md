@@ -26,7 +26,7 @@ Installing WSL1 is not covered in this guide, you can follow the steps in [this 
 
 ### 5) Compiling NWNX:EE
 
-- `cd unified`
+- `cd ~/unified`
 - `./Scripts/buildnwnx.sh -j 4`
 
 ### 6) Getting the dedicated server package
@@ -46,7 +46,7 @@ Installing WSL1 is not covered in this guide, you can follow the steps in [this 
 
 If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter Nights\` it can be accessed in WSL through `/mnt/c/Users/<Username>/Documents/Neverwinter Nights/`
 
-- `nano .local/share/Neverwinter\ Nights/nwn.ini`
+- `nano ~/.local/share/Neverwinter\ Nights/nwn.ini`
 
   Change the `MODULES`, `HAK` and `TLK` aliases to your windows nwn userdirectory:
 

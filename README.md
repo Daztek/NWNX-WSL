@@ -78,7 +78,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
 ## Maintenance
 
-### Updating NWNX:EE
+### - Updating NWNX:EE
 
 If you want to update NWNX:EE at some point you can do the following:
 
@@ -87,7 +87,7 @@ If you want to update NWNX:EE at some point you can do the following:
 - `./Scripts/buildnwnx.sh -j 4`
 - `cd`
 
-### Updating NWServer (when needed)
+### - Updating NWServer (when needed)
 
 When Beamdog releases a patch you'll need to update nwserver-linux, this is how:
 
@@ -100,7 +100,7 @@ Replace XXXX with the needed version, for example 8193
 - `rm nwnee-dedicated-XXXX.zip`
 - `cd`
 
-### Editing server settings
+### - Editing server settings
 
 If you want to edit settings like "Sticky Player Names", "Show DM Joined Messages" etc you can do the following:
 
@@ -110,7 +110,7 @@ Change the settings you want and press `Ctrl+x` to exit and `y` to save.
 
 ## Extra
 
-### Setting up Redis
+### - Setting up Redis
 
 If you want Redis support, you can do the following:
 

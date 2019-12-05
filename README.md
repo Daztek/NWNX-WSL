@@ -76,8 +76,6 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
   To stop the server, just type `exit` in the console.
 
----
-
 ## Maintenance
 
 ### Updating NWNX:EE

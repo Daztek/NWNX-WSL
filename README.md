@@ -89,6 +89,14 @@ If you want to update NWNX:EE at some point you can do the following:
 - `./Scripts/buildnwnx.sh -j 4`
 - `cd`
 
+### Editing server settings
+
+If you want to set settings like "Sticky Player Names", "Show DM Joined Messages" you can do the following:
+
+- `nano ~/.local/share/Neverwinter\ Nights/settings.tml`
+
+Change the settings you want and press `Ctrl+x` to exit and `y` to save.
+
 ### Setting up Redis
 
 If you want Redis support, you can do the following:

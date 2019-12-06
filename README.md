@@ -10,26 +10,26 @@ Installing WSL1 is not covered in this guide, you can follow the steps in [this 
 
 ## Initial Setup
 
-### 1) Start Ubuntu
+#### 1) Start Ubuntu
 
-### 2) Updating Ubuntu 
+#### 2) Updating Ubuntu 
 
 - `sudo apt update && sudo apt upgrade -y`
 
-### 3) Installing dependencies 
+#### 3) Installing dependencies 
 
 - `sudo apt install -y git unzip zip cmake build-essential libsqlite3-dev libssl-dev`
 
-### 4) Getting NWNX:EE
+#### 4) Getting NWNX:EE
 
 - `git clone https://github.com/nwnxee/unified.git`
 
-### 5) Compiling NWNX:EE
+#### 5) Compiling NWNX:EE
 
 - `cd ~/unified`
 - `./Scripts/buildnwnx.sh -j 4`
 
-### 6) Getting the dedicated server package
+#### 6) Getting the dedicated server package
 
 - `cd ~/`
 - `mkdir server`
@@ -42,7 +42,7 @@ Installing WSL1 is not covered in this guide, you can follow the steps in [this 
 - `exit`
 - `cd`
 
-### 7) Setting up aliases 
+#### 7) Setting up aliases 
 
 If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter Nights\` it can be accessed in WSL through `/mnt/c/Users/<Username>/Documents/Neverwinter Nights/`
 
@@ -58,7 +58,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
   Press `Ctrl+x` to exit and `y` to save
 
-### 8) Setting up run-server.sh
+#### 8) Setting up run-server.sh
 
 - `wget https://raw.githubusercontent.com/Daztek/NWNX-WSL/master/run-server.sh`
 - `chmod +x run-server.sh`
@@ -68,7 +68,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
   Press `Ctrl+x` to exit and `y` to save.
 
-### 9) Running the server
+#### 9) Running the server
 
 - `./run-server.sh`
 
@@ -78,7 +78,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
 ## Maintenance
 
-### Updating NWNX:EE
+#### Updating NWNX:EE
 
 If you want to update NWNX:EE at some point you can do the following:
 
@@ -87,7 +87,7 @@ If you want to update NWNX:EE at some point you can do the following:
 - `./Scripts/buildnwnx.sh -j 4`
 - `cd`
 
-### Updating NWServer (when needed)
+#### Updating NWServer (when needed)
 
 When Beamdog releases a patch you'll need to update nwserver-linux, this is how:
 
@@ -100,7 +100,7 @@ Replace XXXX with the needed version, for example 8193
 - `rm nwnee-dedicated-XXXX.zip`
 - `cd`
 
-### Editing server settings
+#### Editing server settings
 
 If you want to edit settings like "Sticky Player Names", "Show DM Joined Messages" etc you can do the following:
 
@@ -110,7 +110,7 @@ Change the settings you want and press `Ctrl+x` to exit and `y` to save.
 
 ## Extra
 
-### Setting up Redis
+#### Setting up Redis
 
 If you want Redis support, you can do the following:
 

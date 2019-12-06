@@ -8,7 +8,7 @@ Installing WSL1 is not covered in this guide, you can follow the steps in [this 
 
 **Advanced plugins like the Profiler, Lua, Ruby and DotNET plugins are not covered.**
 
----
+## Initial Setup
 
 ### 1) Start Ubuntu
 

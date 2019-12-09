@@ -34,7 +34,7 @@ Installing WSL1 is not covered in this guide, you can follow the steps in [this 
 - `cd ~/`
 - `mkdir server`
 - `cd server`
-- `wget https://nwnx.io/nwnee-dedicated-8193.1.zip`
+- `wget https://nwnx.io/nwnee-dedicated-8193.2.zip`
 - `unzip nwnee-dedicated-8193.1.zip`
 - `rm nwnee-dedicated-8193.1.zip`
 - `cd bin/linux-x86`

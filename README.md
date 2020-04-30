@@ -62,6 +62,7 @@ If your Windows NWN Userdirectory is `C:\Users\<Username>\Documents\Neverwinter 
 
 #### 8) Setting up run-server.sh
 
+- `cd ~/`
 - `wget https://raw.githubusercontent.com/Daztek/NWNX-WSL/master/run-server.sh`
 - `chmod +x run-server.sh`
 - `nano run-server.sh`

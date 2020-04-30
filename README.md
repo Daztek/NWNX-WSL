@@ -4,7 +4,9 @@ Installing WSL1 is not covered in this guide, you can follow the steps in [this 
 
 ---
 
-**This guide will only support SQLite and Mysql for NWNX_SQL.**
+**This guide will only support SQLite and MySQL for NWNX_SQL.**
+
+While NWNX_SQL will be compiled with MySQL support, setting up the actual MySQL database is not covered in this guide.
 
 **Advanced plugins like the Profiler, Lua, Ruby and DotNET plugins are not covered.**
 
@@ -34,9 +36,9 @@ Installing WSL1 is not covered in this guide, you can follow the steps in [this 
 - `cd ~/`
 - `mkdir server`
 - `cd server`
-- `wget https://nwnx.io/nwnee-dedicated-8193.9.zip`
-- `unzip nwnee-dedicated-8193.9.zip`
-- `rm nwnee-dedicated-8193.9.zip`
+- `wget https://nwnx.io/nwnee-dedicated-8193.11.zip`
+- `unzip nwnee-dedicated-8193.11.zip`
+- `rm nwnee-dedicated-8193.11.zip`
 - `cd bin/linux-x86`
 - `./nwserver-linux`
 - `exit`

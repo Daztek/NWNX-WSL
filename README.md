@@ -1,6 +1,6 @@
 # NWNX:EE on WSL1, a brief guide
 
-Installing WSL1 is not covered in this guide, you can follow the steps in [this article](https://www.computerhope.com/issues/ch001879.htm). Only do the `Installing WSL.` and `Getting Started with your Linux subsystem.` steps. Be sure to install the `Ubuntu` distro, not `Ubuntu 16.04 LTS` or `Ubuntu 18.04 LTS`.
+Installing WSL1 is not covered in this guide, you can follow the steps in [this article](https://www.computerhope.com/issues/ch001879.htm). Only do the `Installing WSL.` and `Getting Started with your Linux subsystem.` steps. Be sure to install the `Ubuntu 18.04 LTS` distro. You can try the `Ubuntu` distro which is Ubuntu version 20.04, but I haven't tested it myself.
 
 ---
 

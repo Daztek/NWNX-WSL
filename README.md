@@ -36,9 +36,9 @@ While NWNX_SQL will be compiled with MySQL support, setting up the actual MySQL 
 - `cd ~/`
 - `mkdir server`
 - `cd server`
-- `wget https://nwnx.io/nwnee-dedicated-8193.13.zip`
-- `unzip nwnee-dedicated-8193.13.zip`
-- `rm nwnee-dedicated-8193.13.zip`
+- `wget https://nwnx.io/nwnee-dedicated-8193.16.zip`
+- `unzip nwnee-dedicated-8193.16.zip`
+- `rm nwnee-dedicated-8193.16.zip`
 - `cd bin/linux-x86`
 - `./nwserver-linux`
 - `exit`
@@ -94,11 +94,11 @@ If you want to update NWNX:EE at some point you can do the following:
 
 When Beamdog releases a patch you'll need to update nwserver-linux, this is how:
 
-Replace XXXX with the needed version, for example 8193
+Replace XXXX.Y with the needed version, for example 8193.16
 
 - `cd ~/server`
 - `rm -r bin data`
-- `wget https://nwnx.io/nwnee-dedicated-XXXX.zip`
+- `wget https://nwnx.io/nwnee-dedicated-XXXX.Y.zip`
 - `unzip nwnee-dedicated-XXXX.zip`
 - `rm nwnee-dedicated-XXXX.zip`
 - `cd`

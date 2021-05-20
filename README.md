@@ -37,8 +37,8 @@ While NWNX_SQL will be compiled with MySQL support, setting up the actual MySQL 
 - `mkdir server`
 - `cd server`
 - `wget https://nwnx.io/nwnee-dedicated-8193.23.zip`
-- `unzip https://nwnx.io/nwnee-dedicated-8193.23.zip`
-- `rm https://nwnx.io/nwnee-dedicated-8193.23.zip`
+- `unzip nwnee-dedicated-8193.23.zip`
+- `rm nwnee-dedicated-8193.23.zip`
 - `cd bin/linux-x86`
 - `./nwserver-linux`
 - `exit`

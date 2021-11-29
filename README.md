@@ -38,7 +38,7 @@ Check the [NWNX Repo](https://github.com/nwnxee/unified) for the NWN Build NWNX 
 - `cd ~/`
 - `mkdir server`
 - `cd server`
-- `wget https://nwnx.io/nwnee-dedicated-XXXX.YY.zip`
+- `wget https://nwn.beamdog.net/downloads/nwnee-dedicated-XXXX.YY.zip`
 - `unzip nwnee-dedicated-XXXX.YY.zip`
 - `rm nwnee-dedicated-XXXX.YY.zip`
 - `cd bin/linux-x86`
@@ -100,7 +100,7 @@ Replace XXXX.YY with the needed version, for example 8193.16
 
 - `cd ~/server`
 - `rm -r bin/ data/ lang/`
-- `wget https://nwnx.io/nwnee-dedicated-XXXX.YY.zip`
+- `wget https://nwn.beamdog.net/downloads/nwnee-dedicated-XXXX.YY.zip`
 - `unzip nwnee-dedicated-XXXX.YY.zip`
 - `rm nwnee-dedicated-XXXX.YY.zip`
 - `cd`

@@ -33,7 +33,7 @@ While NWNX_SQL will be compiled with MySQL support, setting up the actual MySQL 
 
 #### 6) Getting the dedicated server package
 
-Check the [NWNX Repo](https://github.com/nwnxee/unified) for the NWN Build NWNX is targetting and replace the XXXX.YY below with the right NWN Build.
+Check the [NWNX Repo](https://github.com/nwnxee/unified) for the NWN Build NWNX is targetting and replace the XXXX.YY below with the right NWN Build. Note: the NWNX and NWN server binary version must match.
 
 - `cd ~/`
 - `mkdir server`

@@ -33,14 +33,14 @@ While NWNX_SQL will be compiled with MySQL support, setting up the actual MySQL 
 
 #### 6) Getting the dedicated server package
 
-Check the [NWNX Repo](https://github.com/nwnxee/unified) for the NWN Build NWNX is targetting and replace the XXXX.YY below with the right NWN Build. Note: the NWNX and NWN server binary version must match.
+Check the [NWNX Repo](https://github.com/nwnxee/unified) for the NWN Build NWNX is targetting and replace the XXXX.YY-ZZ below with the right NWN Build. Note: the NWNX and NWN server binary version must match.
 
 - `cd ~/`
 - `mkdir server`
 - `cd server`
-- `wget https://nwn.beamdog.net/downloads/nwnee-dedicated-XXXX.YY.zip`
-- `unzip nwnee-dedicated-XXXX.YY.zip`
-- `rm nwnee-dedicated-XXXX.YY.zip`
+- `wget https://nwn.beamdog.net/downloads/nwnee-dedicated-XXXX.YY-ZZ.zip`
+- `unzip nwnee-dedicated-XXXX.YY-ZZ.zip`
+- `rm nwnee-dedicated-XXXX.YY-ZZ.zip`
 - `cd bin/linux-x86`
 - `./nwserver-linux`
 - `exit`
@@ -96,13 +96,13 @@ If you want to update NWNX:EE at some point you can do the following:
 
 When Beamdog releases a patch you'll need to update nwserver-linux, this is how:
 
-Replace XXXX.YY with the needed version, for example 8193.16
+Replace XXXX.YY-ZZ with the needed version, for example 8193.35-37
 
 - `cd ~/server`
 - `rm -r bin/ data/ lang/`
-- `wget https://nwn.beamdog.net/downloads/nwnee-dedicated-XXXX.YY.zip`
-- `unzip nwnee-dedicated-XXXX.YY.zip`
-- `rm nwnee-dedicated-XXXX.YY.zip`
+- `wget https://nwn.beamdog.net/downloads/nwnee-dedicated-XXXX.YY-ZZ.zip`
+- `unzip nwnee-dedicated-XXXX.YY-ZZ.zip`
+- `rm nwnee-dedicated-XXXX.YY-ZZ.zip`
 - `cd`
 
 #### Editing server settings
